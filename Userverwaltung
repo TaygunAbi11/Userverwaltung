@@ -22,28 +22,12 @@ function menu(){
 function useradd(){
         
 }
-function deleteuser(){
-	echo "DELETEUSER"
-	YESNO=0
+function userdel(){
+}
 
-	until [ $YESNO = 1 ]
-	do
-        where
-        echo "Sind Sie sich sicher, dass Sie in $WHERE nach dem User suchen wollen?"
-        read -p "0: nein | 1: ja" YESNO
-    done
-    cd /$WHERE
-    ls -l $WHERE
-    YESNO=0
+}
+function groupadd(){
 
-	until [ $YESNO = 1 ]
-	do
-        which
-        echo "Sind Sie sich sicher, dass Sie das sie den User $WHICH löschen wollen?"
-        read -p "0: nein | 1: ja" YESNO
-    done
-    rm $WHICH
-    sleep 5
 }
 
 while :
@@ -71,4 +55,4 @@ done
 
 exit 0
 done
-//du hs
+
