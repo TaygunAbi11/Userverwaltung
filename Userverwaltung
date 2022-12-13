@@ -1,8 +1,8 @@
 #!/bin/bash
 
 #Userverwaltung
-#Autor: Calvin, Markus, Metehan, Michael
-#Email: hoermannca@elektronikschule.de, roesslerma@elektronikschule.de, karakocame@elektronikschule.de, roesslermi@elektronikschule.de
+#Autor: Taygun, Ismail, Enes, Alex(dremybull)
+#Email: karatayta@elektronikschule.de, naumnnal@elektronikschule.de, degirmencien@elektronikschule.de, demiris@elektronikschule.de
 #Version: 1.0.0
 
 function menu(){
